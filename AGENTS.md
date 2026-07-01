@@ -1,4 +1,4 @@
-# 12inchrack Project Context
+# 12-inch-rack Project Context
 
 This workspace adapts community-made 10-inch rack mount models so they fit the user's 12-inch desktop rack.
 
@@ -24,8 +24,8 @@ The original 10-inch models measured about `254 mm` wide. The current conversion
 
 ## Directory Layout
 
-- `10inch/`: original community 10-inch rack mount source models.
-- `12inch/`: generated 12-inch adaptations.
+- `10-inch/`: original community 10-inch rack mount source models.
+- `12-inch/`: generated 12-inch adaptations.
 - `context/`: reference photos and screenshots of the user's rack and seller-provided dimensions.
 
 ## Editing Guidance
@@ -47,12 +47,12 @@ For rack fit, prioritize:
 
 The current generated files are:
 
-- `12inch/TL-SG108E-V5-12INCH-RACK-MOUNT.3mf`
-- `12inch/Tiny-Rack-Mount-no-Keystone-12inch-light-v2.3mf`
+- `12-inch/TL-SG108E-V5-12-INCH-RACK-MOUNT.3mf`
+- `12-inch/Tiny-Rack-Mount-no-Keystone-12-inch-light-v2.3mf`
 
 The ThinkCentre `light-v2` files keep the same `277.4 mm` outside width while reducing how much side-holder mass is moved outward. The Bambu-oriented file uses slicer-friendly axes: width on X, depth on Y, and 1U height on Z.
 
-The SG108E V5 white output was generated from `10inch/TL-SG108E+V5+10i+RM.3mf`.
+The SG108E V5 white output was generated from `10-inch/TL-SG108E+V5+10i+RM.3mf`.
 
 ## PETG Print Profile
 

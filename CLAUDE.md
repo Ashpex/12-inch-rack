@@ -1,4 +1,4 @@
-# 12inchrack
+# 12-inch-rack
 
 This project is for modifying community-made 10-inch rack mount models so they fit the user's 12-inch rack.
 
@@ -6,7 +6,7 @@ This project is for modifying community-made 10-inch rack mount models so they f
 
 The user bought a 12-inch desktop rack. Existing available models for the TP-Link SG108E switch and Lenovo ThinkCentre Tiny M720q are 10-inch rack models, so they are too narrow for this rack.
 
-Reference images and seller screenshots live in `context/`. Original community files live in `10inch/`. Adapted files should be written to `12inch/`.
+Reference images and seller screenshots live in `context/`. Original community files live in `10-inch/`. Adapted files should be written to `12-inch/`.
 
 ## Target Dimensions
 
@@ -29,8 +29,8 @@ For the ThinkCentre Tiny model, this means widening the two side support areas t
 
 ## Existing Generated Models
 
-- `12inch/TL-SG108E-V5-12INCH-RACK-MOUNT.3mf`
-- `12inch/Tiny-Rack-Mount-no-Keystone-12inch-light-v2.3mf`
+- `12-inch/TL-SG108E-V5-12-INCH-RACK-MOUNT.3mf`
+- `12-inch/Tiny-Rack-Mount-no-Keystone-12-inch-light-v2.3mf`
 
 These outputs target `277.4 mm` overall front width and preserve the original device geometry. Use the Bambu-oriented ThinkCentre 3MF for slicing when possible.
 
